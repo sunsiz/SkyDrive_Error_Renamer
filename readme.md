@@ -30,20 +30,20 @@ Maybe you don't have these kind problems and you don't want to use this app.
 **"Due to the limitations of the supported zip file format, the following file(s) had to be renamed."**
 مەنىسى: zip ھۆججىتىنى قوللاش جەھەتتىكى چەكلىمىلەر تۈپەيلى، تۆۋەندىكى ھۆججەتلەرنىڭ ئىسمى ئۆزگەرتىلدى.
 ئاستىدا ھۆججەتلەرنىڭ ئەسلىدىكى ئىسمى ۋە ئۆزگەرتىلگەن ئىسىملىرى بېرىلگەن بولۇپ، مۇشۇنىڭغا ئاساسەن بىز ھۆججەتلەرنىڭ ئىسمىنى ئەسلىگە كەلتۈرىۋالساق بولىدۇ.
-ئەگەر ھۆججەت سانى كۆپ بولسا ۋە بىر مۇنچە ھۆججەت قىسقۇچلاردا بولسا بىر-بىرلەپ ئىسىم ئۆزگەرتىپ چىقىش سەل ئاۋارىچىلىق بولىدىكەن. شۇڭا مۇشۇنداق ئەھۋالغا ئۇچرىغانلارغا ياردىمى بولۇپ قالار دەپ بۇنى ياساپ باقتىم. سىلەرگە ئاز-تولا ياردىمى تېگىپ قالسا ئەجەپ ئەمەس دەپ تورغا يوللاپ قويدۇم.
+ئەگەر ھۆججەت سانى كۆپ بولسا ۋە بىر مۇنچە ھۆججەت قىسقۇچلاردا بولسا بىر-بىرلەپ ئىسىم ئۆزگەرتىپ چىقىش سەل ئاۋارىچىلىق بولىدىكەن. شۇڭا مۇشۇنى ھەل قىلىش ئۈچۈن بۇنى ياساپ باقتىم. مۇشۇنداق ئەھۋالغا ئۇچرىغانلارغا  ئاز-تولا ياردىمى تېگىپ قالسا ئەجەپ ئەمەس دەپ تورغا يوللاپ قويدۇم.
 ‫بۇنى VisualStudio 2012 دە C# تا يازغان. ‫WPF نى تۇنجى ئىشلىتىشىم بولغاچقا ئانچە چىرايلىق چىقمىدى. قىزىقىدىغانلار كودىنى چۈشۈرۈپ ئۆزگەرتىپ ياخشىلاپ باقسا بولىدۇ.
 
 
 ### ئېكران كۆرۈنىشى 1
 
-![ئېكران كۆرۈنىشى](https://raw.github.com/sunsiz/SkyDrive_Error_Renamer/master/screenshot/WindowScreenshot.jpg)
+![ئېكران كۆرۈنىشى](https://raw.githubusercontent.com/sunsiz/SkyDrive_Error_Renamer/master/screenshots/WindowScreenshot.jpg)
 
 ### ئېكران كۆرۈنىشى 2
 
-![ئېكران كۆرۈنىشى](https://raw.github.com/sunsiz/SkyDrive_Error_Renamer/master/screenshot/WindowScreenshot1.jpg)
+![ئېكران كۆرۈنىشى](https://raw.githubusercontent.com/sunsiz/SkyDrive_Error_Renamer/master/screenshots/WindowScreenshot1.jpg)
 
 ### ئېكران كۆرۈنىشى 3
 
-![ئېكران كۆرۈنىشى](https://raw.github.com/sunsiz/SkyDrive_Error_Renamer/master/screenshot/WindowScreenshot2.jpg)
+![ئېكران كۆرۈنىشى](https://raw.githubusercontent.com/sunsiz/SkyDrive_Error_Renamer/master/screenshots/WindowScreenshot2.jpg)
 
 
