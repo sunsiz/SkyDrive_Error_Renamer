@@ -1,0 +1,56 @@
+﻿<Window x:Class="Renamer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SkyDrive Download Encoding Error Renamer ئىسىم ئۆزگەرتكۈچ" Height="542" Width="756" FontFamily="Droid Naskh Shift Alt" FlowDirection="RightToLeft" WindowStartupLocation="CenterScreen" SizeChanged="Window_SizeChanged">
+    <Grid>
+        <ListView x:Name="listview1" Margin="10,10,10,104" FontFamily="Droid Naskh Shift Alt" FlowDirection="RightToLeft">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn x:Name="col1" Header="ھازىرقى ئىسمى" DisplayMemberBinding="{Binding OldName}" Width="300" />
+                    <GridViewColumn x:Name="col2" Header="ئۆزگىرىدىغان ئىسمى" DisplayMemberBinding="{Binding NewName}" FrameworkElement.FlowDirection="RightToLeft" Width="700"  />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="openbtn" Content="ھۆججەت ئېچىش" Margin="185,0,443,50" Click="Button_Click" Height="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" Opacity="0.9" BorderThickness="3" HorizontalAlignment="Center" Padding="0" HorizontalContentAlignment="Center" ScrollViewer.HorizontalScrollBarVisibility="Visible">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowColorKey}}"/>
+            </Button.Background>
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="9" ShadowDepth="9" Opacity="0.9" RenderingBias="Quality" Direction="225"/>
+            </Button.Effect>
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.972" ScaleX="1.029"/>
+                    <SkewTransform AngleX="14.189"/>
+                    <RotateTransform Angle="0.182"/>
+                    <TranslateTransform X="-3.3" Y="-13.3"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="renamebtn" Content="ئىسمىنى ئۆزگەرتىش" Margin="424.49,0,203.402,50" Click="renamebtn_Click" Height="40" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Opacity="0.9" BorderThickness="3" HorizontalAlignment="Center" Padding="0" HorizontalContentAlignment="Center" ScrollViewer.HorizontalScrollBarVisibility="Visible">
+            <Button.Background>
+                <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowColorKey}}"/>
+            </Button.Background>
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Effect>
+                <DropShadowEffect BlurRadius="9" ShadowDepth="9" Opacity="0.9" RenderingBias="Quality"/>
+            </Button.Effect>
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="0.972" ScaleX="1.029"/>
+                    <SkewTransform AngleX="-14.201"/>
+                    <RotateTransform Angle="0.182"/>
+                    <TranslateTransform X="3.3" Y="-13.3"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <ProgressBar x:Name="ProgressBar1" Margin="10,0,10,10" Height="25" VerticalAlignment="Bottom"/>
+        <Label x:Name="progresslabel" Content="" Margin="10,0,10,40" VerticalAlignment="Bottom" FlowDirection="RightToLeft" FontFamily="Droid Naskh Shift Alt"/>
+
+    </Grid>
+</Window>
