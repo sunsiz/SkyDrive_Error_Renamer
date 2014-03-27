@@ -1,7 +1,7 @@
 ﻿# SkyDrive Download Files Name Encoding Error Renamer
 
 **************
-This project is written with C# in VisualStudio 2012 by Adil: <adilahun@gmail.com>
+This project is written with C# in VisualStudio 2012 by Adil: <adilahun@hotmail.com>
 **************
 
 This is the first version of this little app.
